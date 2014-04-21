@@ -1,0 +1,67 @@
+/*
+	These are the custom css styles for the Guerrilla Social Sharing plugin.
+	If you'd like to customize these css codes, I would recommend copying
+	the codes below into your theme's stylesheet and editing the codes
+	as you see fit. Need help? email: hi@madebyguerrilla.com
+*/
+
+.socialwrapper {
+	float: left;
+	margin: 10px 0;
+	text-align: center;
+	width: 100%;
+}
+
+.socialwrapper a { border: 0; }
+
+.socialwrapper a,
+.socialwrapper a:visited,
+.socialwrapper a:link,
+.socialwrapper a:hover {
+	display: inline-block;
+	height: 30px;
+	margin: 10px 5px;
+	padding: 0;
+	text-indent: -9999px;
+	width: 30px;
+}
+
+/* Twitter */
+a.ss_twitter { background: url(images/social_twitter.png) no-repeat top center; }
+a.ss_twitter:hover { background: url(images/social_twitter.png) no-repeat bottom center; }
+
+/* Facebook */
+a.ss_facebook { background: url(images/social_facebook.png) no-repeat top center; }
+a.ss_facebook:hover { background: url(images/social_facebook.png) no-repeat bottom center; }
+
+/* Linkedin */
+a.ss_linkedin { background: url(images/social_linkedin.png) no-repeat top center; }
+a.ss_linkedin:hover { background: url(images/social_linkedin.png) no-repeat bottom center; }
+
+/* Google+ */
+a.ss_google { background: url(images/social_google.png) no-repeat top center; }
+a.ss_google:hover { background: url(images/social_google.png) no-repeat bottom center; }
+
+/* Pinterest */
+a.ss_pinterest { background: url(images/social_pinterest.png) no-repeat top center; }
+a.ss_pinterest:hover { background: url(images/social_pinterest.png) no-repeat bottom center; }
+
+@media screen and (max-width: 480px) {
+/* styles for devices with a maximum width of 480 */
+	.socialwrapper {
+		background: #FFF;
+		bottom: 0;
+		border-top: 1px solid #dadada;
+		left: 0;
+		margin: 0;
+		position: fixed;
+		text-align: center;
+		width: 100%;
+		z-index:1000;
+	}
+	
+	.socialwrapper p { margin: 0; padding: 0; }
+	
+	p.likeit { display: none; }
+
+}
